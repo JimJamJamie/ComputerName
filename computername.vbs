@@ -1,4 +1,3 @@
-
 'Header section
 Option Explicit
 On Error Resume Next
