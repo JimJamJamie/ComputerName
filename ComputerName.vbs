@@ -14,5 +14,5 @@ Set wmiQuery = GetObject("winmgmts:").ExecQuery _
 
 'Output section
 For Each queryItem in wmiQuery
-	WScript.Echo "This computer is called " & queryItem.Name
+    Msgbox "This computer is called " & queryItem.Name, 0,  "Computer Name"
 Next
